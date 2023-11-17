@@ -11,5 +11,5 @@
 
 ## `INSTALL SCRIPT`
 ```
-wget -q https://raw.githubusercontent.com/Fv-store/free/main/main.sh && chmod +x main.sh && ./main.sh
+wget -q https://raw.githubusercontent.com/Felixind/NusantaraProjectAutoScript-VPS/main/main.sh && chmod +x main.sh && ./main.sh
 ```
