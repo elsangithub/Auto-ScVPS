@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-REPO="https://raw.githubusercontent.com/Felixind/free/main/"
+REPO="https://raw.githubusercontent.com/Felixind/NusantaraProjectAutoScript-VPS/main/"
 red='\e[1;31m'
 green='\e[1;32m'
 yell='\e[1;33m'
