@@ -13,3 +13,5 @@
 ```
 wget -q https://raw.githubusercontent.com/Emundyt0/Auto-Sc/main/main.sh && chmod +x main.sh && ./main.sh
 ```
+
+![Screenshot (7)](https://github.com/Emundyt0/Auto-Sc/assets/164874815/626a4967-0b7e-487b-bb7c-629ed88e26d4)
