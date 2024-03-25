@@ -10,6 +10,11 @@
 - Ubuntu 18/20 LTS
 
 ## `INSTALL SCRIPT`
+
+```
+apt update -y && apt upgrade -y
+```
+
 ```
 wget -q https://raw.githubusercontent.com/Emundyt0/Auto-Sc/main/main.sh && chmod +x main.sh && ./main.sh
 ```
