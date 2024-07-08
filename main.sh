@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-REPO="https://raw.githubusercontent.com/Emundyt0/Auto-ScVPS/main/"
+REPO="https://raw.githubusercontent.com/elsangithub/Auto-ScVPS/main/"
 red='\e[1;31m'
 green='\e[1;32m'
 yell='\e[1;33m'
@@ -119,7 +119,7 @@ echo ""
 clear
 echo ""
 echo ""
-yellow "Note : SEBELUM MEMASUKAN DOMAIN, HARAP POINTING DULU IP VPS KAMU !"
+yellow "Note : SEBELUM MEMASUKAN DOMAIN, HARAP POINTING DULU IP VPS KAMU ! / IP (fitur tak lengkap)"
 echo " "
 read -rp "Input ur domain : " -e pp
     if [ -z $pp ]; then
