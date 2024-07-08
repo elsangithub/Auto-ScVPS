@@ -36,6 +36,10 @@ res1() {
 }
 netfilter-persistent
 clear
+sudo apt update
+sudo apt install haproxy
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/xray/xray.key -out /etc/xray/xray.crt
+
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m              UPDATE SCRIPT             \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
