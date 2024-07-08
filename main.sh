@@ -140,10 +140,7 @@ read -rp "Input ur domain : " -e pp
 	echo "$pp" > /root/domain
         echo "IP=$pp" > /var/lib/SIJA/ipvps.conf
     fi
-if [ ! -f "$domain_file" ]; then
-    echo "File domain tidak dibuat dengan benar."
-    exit 1
-fi
+
 clear
 echo -e "[ ${green}INFO${NC} ] Memasang Service SSH..."
 sleep 2
