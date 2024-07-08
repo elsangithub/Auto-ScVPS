@@ -35,6 +35,12 @@ elif [[ -e /etc/centos-release ]]; then
 	source /etc/os-release
 	OS=centos
 fi
+# Pastikan curl terinstal
+if ! command -v curl &> /dev/null; then
+  echo "curl tidak ditemukan. Menginstal curl..."
+  apt update -y
+  apt install curl -y
+fi
 
 curl ipinfo.io/org > /root/.isp
 curl ipinfo.io/city > /root/.city
